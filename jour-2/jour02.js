@@ -52,3 +52,43 @@ else if(score>=limit || (password.length)>5){
 else{
     console.log("nothing is ok")
 }
+// BONUS 1
+var random=Math.floor(Math.random() * (6- 1 + 1) + 1);
+if(random===6){
+    console.log("yes")
+}
+else{
+    console.log("oh no")
+}
+// BONUS 2
+var month="january"
+switch (month) {
+	case "january": 
+		console.log("Winter");
+		break;
+	case "february": 
+		console.log("Winter");
+		break;
+	case "march": 
+		console.log("Winter");
+		break;
+	case "april": 
+		console.log("spring");
+		break;
+    case "may": 
+		console.log("spring");
+    case "june": 
+		console.log("spring");
+    case "july": 
+		console.log("summer");
+    case "august": 
+		console.log("summer");
+    case "september": 
+		console.log("summer");
+    case "october": 
+		console.log("fall");
+    case "november": 
+		console.log("fall");
+    case "december": 
+		console.log("fall");
+}
