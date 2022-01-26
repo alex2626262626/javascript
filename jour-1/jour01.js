@@ -20,7 +20,7 @@ var basicDown=basic.toLowerCase()
 console.log(basic,basicUp,basicDown)
 // exo 7
 var word="banana"
-word=word.split("")
+word=word.split("")git 
 console.log(word)
 // exo 8
 var age="27"
