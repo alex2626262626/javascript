@@ -17,7 +17,7 @@ console.log(food)
 var basic="This is cool"
 var basicUp=basic.toUpperCase()
 var basicDown=basic.toLowerCase()
-console.log(basic,basicUp,basicDown)
+console.log(basic,"\n",basicUp,"\n",basicDown)
 // exo 7
 var word="banana"
 word=word.split("")
