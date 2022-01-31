@@ -30,7 +30,9 @@ for(var i=0;i<=limit;i+=1){
 }
 console.log(total)
 // exo 6
-var sentence="hello konexio"
-for(var i=0;i<=sentence.length;i++){
-    
+const sentance="hello konexio!"
+var result=""
+for(let i=(sentance.length)-1;i>=0;i--){
+    result+=sentance[i]
 }
+console.log(result)
