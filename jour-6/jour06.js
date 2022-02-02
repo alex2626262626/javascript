@@ -9,3 +9,10 @@ function formaDate(a){
 }
 formaDate("1994-06-21")
 // exo 2
+function calculAge(a){
+    var b=new Date(a)
+    var z=b.getFullYear()
+    var c=new Date().getFullYear()
+    var d=console.log(c-z)
+}
+calculAge("1994-06-21")
